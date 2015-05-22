@@ -20,7 +20,7 @@ group = 'co.ribl'
 dependencies {
     compile 'com.android.support:palette-v7:+'
     compile 'com.android.support:support-v4:+'
-    compile project(':AndroidAsync:AndroidAsync')
+    compile 'com.koushikdutta.async:androidasync:2.+'
     compile 'com.google.code.gson:gson:2.3'
 
     // for when i wanna test this against gms conscrypt
